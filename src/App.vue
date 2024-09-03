@@ -7,12 +7,12 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
 
-    <div class="wrapper">
+    <div class="flex justify-center">
       <!-- <HelloWorld msg="You did it!" /> -->
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink class="ml-3" to="/about">About</RouterLink>
       </nav>
     </div>
   </header>
