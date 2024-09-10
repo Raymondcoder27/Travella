@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <main class="flex justify-center mt-5">
-    <div class="font-bold text-black rounded hover:bg-black hover:text-white w-[100px] cursor-pointer">Hello World!!</div>
+  <main class="flex flex-col h-screen">
+    <div class="m-3 mb-auto">Hello World!!</div>
     <!-- <TheWelcome /> -->
   </main>
 </template>
