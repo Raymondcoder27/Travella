@@ -4,7 +4,11 @@
 
 <template>
   <main class="flex flex-col h-screen">
-    <div class="m-3 mb-auto">Hello World!!</div>
+    <div class="m-3 mb-auto">
+      <div class="grid grid-cols-2 gap-3 my-3">
+        
+      </div>
+    </div>
     <!-- <TheWelcome /> -->
   </main>
 </template>
