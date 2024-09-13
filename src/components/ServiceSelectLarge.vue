@@ -5,6 +5,9 @@
                 <div class="text-lg ml-2 text-gary-900 mt-14">
                     Ride
                 </div>
+                <div class="mt-3 mr-1">
+                    <img src="/public/uber/ride.png" alt="">
+                </div>
             </div>
         </div>
     </div>
