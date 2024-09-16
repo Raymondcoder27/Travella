@@ -2,6 +2,7 @@
 // import TheWelcome from '../components/TheWelcome.vue'
 import ServiceSelectLarge from '@/components/ServiceSelectLarge.vue';
 import ServiceSelectSmall from '@/components/ServiceSelectSmall.vue';
+import MagnifyIcon from 'vue-material-design-icons/Magnify.vue'
 </script>
 
 <template>
@@ -31,11 +32,13 @@ import ServiceSelectSmall from '@/components/ServiceSelectSmall.vue';
         <ServiceSelectSmall 
         text="Travel"
         image="travel"/>
-      <!-- <ServiceSelectSmall 
-        text="Food"
-        imageWidth="74"
-        image="food"
-        :promo="true"/> -->
+      </div>
+
+      <div class="w-full bg-custom-color h-14 rounded-full flex items-center p-3">
+        <MagnifyIcon size="40"/>
+        <div class="ml-3 text-xs font-semibold">
+          Enter pickup location
+        </div>
       </div>
     </div>
   </main>
