@@ -28,6 +28,7 @@
         class="text-md bg-gray-100 appearance-none w-full py-2.5 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:bg-gray-200"
         placeholder="placeholder"
         autocomplete="off">
+        <WindowCloseIcon @click="emit('clearInput')" fillColor="#2e2e2d" />
     </div>
 </template>
 
