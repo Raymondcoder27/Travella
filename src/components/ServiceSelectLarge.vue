@@ -3,12 +3,10 @@
 
     const props = defineProps({
         text: String,
-        imageWidth: String,
         image: String,
-        promo: {Boolean, default:false}
     })
 
-    const { text, imageWidth, image} = toRefs(props)
+    const { text, image} = toRefs(props)
 </script>
 
 <template>
