@@ -6,7 +6,7 @@
                     Ride
                 </div>
                 <div class="mt-3 mr-1">
-                    <img src="/public/uber/ride.png" alt="">
+                    <img width="70" src="/public/uber/ride.png" alt="">
                 </div>
             </div>
         </div>
