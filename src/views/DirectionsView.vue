@@ -1,6 +1,7 @@
 <script setup>
 import {ref} from 'vue'
   import ArrowIcon from 'vue-material-design-icons/ArrowLeft.vue'
+  // import AutoCompleteInput from 'vue-material-design-icons/AutoCompleteInput.vue'
 
   let isPickUpActive = ref(true)
 </script>
@@ -24,7 +25,7 @@ import {ref} from 'vue'
         <div class="w-full h-5"></div>
 
         <div class="mb-2 mt-5">
-          
+          <AutoCompleteInput />
         </div>
       </div>
     </div>
