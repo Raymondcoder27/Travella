@@ -5,11 +5,16 @@
 
     const props = defineProps({
         theId:String,
-        imageWidth: String,
-        image:String,
+        input: String,
+        placeholder:String,
         promo: {Boolean, default:false}
     })
     const {text,imageWidth, image} = toRefs(props)
+
+    const inputComputed = computed({
+        get: ()=> input.value,
+        set: (val)=> emit('update:input', val)
+    })
 </script>
 
 <template>
