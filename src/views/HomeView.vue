@@ -14,7 +14,8 @@ import ServiceSelectLarge from '@/components/ServiceSelectLarge.vue';
       <ServiceSelectLarge 
         text="Food"
         imageWidth="74"
-        image="food"/>
+        image="food"
+        :promo="true"/>
       </div>
     </div>
     <!-- <TheWelcome /> -->
