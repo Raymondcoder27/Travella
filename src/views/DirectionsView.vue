@@ -1,15 +1,16 @@
 <script setup>
-// import TheWelcome from '../components/TheWelcome.vue'
-import ServiceSelectLarge from '@/components/ServiceSelectLarge.vue';
-import ServiceSelectSmall from '@/components/ServiceSelectSmall.vue';
-import MagnifyIcon from 'vue-material-design-icons/Magnify.vue'
-import HomeIcon from 'vue-material-design-icons/Home.vue'
-import MapMarkerIcon from 'vue-material-design-icons/MapMarker.vue'
+  import ArrowIcon from 'vue-material-design-icons/Arrow.vue'
 </script>
 
 <template>
   <main id="Directions" class="flex flex-col h-screen">
-
+    <div class="grid grid-cols-12 mt-4 shadow-md">
+      <div class="col-span-2 mx-auto">
+        <div>
+          <ArrowIcon :size="35"/>
+        </div>
+      </div>
+    </div>
   </main>
 </template>
 <style scoped>
