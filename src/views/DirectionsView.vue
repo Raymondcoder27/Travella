@@ -1,5 +1,8 @@
 <script setup>
+import {ref} from 'vue'
   import ArrowIcon from 'vue-material-design-icons/ArrowLeft.vue'
+
+  let isPickUpActive = ref(true)
 </script>
 
 <template>
@@ -14,6 +17,14 @@
           <div :class="[isPickUpActive ? 'circle-black' : 'circle-gray']"></div>
              <div class="line"></div>
           <div :class="[!isPickUpActive ? 'square-black' : 'square-gray']"></div>
+        </div>
+      </div>
+
+      <div class="col-span-4 pr-4">
+        <div class="w-full h-5"></div>
+
+        <div class="mb-2 mt-5">
+          
         </div>
       </div>
     </div>
@@ -57,7 +68,7 @@
   .line{
     margin: 0 auto;
     width: 2px;
-    height: 9px;
+    height: 45px;
     background-color: rgb(191, 191, 191);
   }
 /* } */
