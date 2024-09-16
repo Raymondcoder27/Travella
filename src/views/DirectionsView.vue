@@ -2,8 +2,10 @@
 import {ref} from 'vue'
   import ArrowIcon from 'vue-material-design-icons/ArrowLeft.vue'
   // import AutoCompleteInput from 'vue-material-design-icons/AutoCompleteInput.vue'
+  import AutoCompleteInput from '@/components/AutoCompleteInput.vue'
 
   let isPickUpActive = ref(true)
+  const pickup = ref('')
 </script>
 
 <template>
@@ -25,7 +27,11 @@ import {ref} from 'vue'
         <div class="w-full h-5"></div>
 
         <div class="mb-2 mt-5">
-          <AutoCompleteInput />
+          <AutoCompleteInput 
+          theId="firstInput"
+          v-model:input="pickup"
+          placeholder="Enter pick-up location"
+          @isActive="isPickUpActive = true" />
         </div>
       </div>
     </div>
