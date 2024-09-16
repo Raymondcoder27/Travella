@@ -20,17 +20,17 @@ import ServiceSelectSmall from '@/components/ServiceSelectSmall.vue';
       </div>
       <div class="grid grid-cols-4 gap-3 my-4">
         <ServiceSelectSmall 
-        text="Ride"
-        image="ride"/>
+        text="2 Wheels"
+        image="2wheels"/>
         <ServiceSelectSmall 
-        text="Ride"
-        image="ride"/>
+        text="Transit"
+        image="transit"/>
         <ServiceSelectSmall 
-        text="Ride"
-        image="ride"/>
+        text="Reserve"
+        image="reserve"/>
         <ServiceSelectSmall 
-        text="Ride"
-        image="ride"/>
+        text="Travel"
+        image="travel"/>
       <!-- <ServiceSelectSmall 
         text="Food"
         imageWidth="74"
