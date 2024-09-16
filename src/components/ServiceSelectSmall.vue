@@ -11,11 +11,11 @@ const { text, image } = toRefs(props);
 
 <template>
   <div id="ServiceSelectSmall">
-    <div class="w-full rounded-2xl bg-custom-color h-[100px] relative">
+    <div class="w-full rounded-2xl bg-custom-color h-[80px] relative">
         <div
           class="absolute top-1/3 left-1/3 transform -translate-x-1/4 -translate-y-1/4 mt-0.5"
         >
-        <img width="55" :src="'/public/uber/' + image + '.png'" alt="" />
+        <img width="60" :src="'/public/uber/' + image + '.png'" alt="" />
         </div>
     </div>
     <div class="text-xs text-center text-gary-900 mt-2">

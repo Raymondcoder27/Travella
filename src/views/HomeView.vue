@@ -18,7 +18,16 @@ import ServiceSelectSmall from '@/components/ServiceSelectSmall.vue';
         image="food"
         :promo="true"/>
       </div>
-      <div class="grid grid-cols-4 gap-3 my-3">
+      <div class="grid grid-cols-4 gap-3 my-4">
+        <ServiceSelectSmall 
+        text="Ride"
+        image="ride"/>
+        <ServiceSelectSmall 
+        text="Ride"
+        image="ride"/>
+        <ServiceSelectSmall 
+        text="Ride"
+        image="ride"/>
         <ServiceSelectSmall 
         text="Ride"
         image="ride"/>
@@ -29,6 +38,5 @@ import ServiceSelectSmall from '@/components/ServiceSelectSmall.vue';
         :promo="true"/> -->
       </div>
     </div>
-    <!-- <TheWelcome /> -->
   </main>
 </template>
