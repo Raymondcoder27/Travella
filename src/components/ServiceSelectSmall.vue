@@ -25,7 +25,9 @@ const { text, image } = toRefs(props);
 </template>
 
 <style scoped>
-.bg-custom-color {
-  background-color: rgb(237, 237, 237);
+/* #ServiceSelectSmall{ */
+    .bg-custom-color {
+        background-color: rgb(237, 237, 237);
 }
+/* } */
 </style>

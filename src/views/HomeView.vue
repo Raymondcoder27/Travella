@@ -3,6 +3,7 @@
 import ServiceSelectLarge from '@/components/ServiceSelectLarge.vue';
 import ServiceSelectSmall from '@/components/ServiceSelectSmall.vue';
 import MagnifyIcon from 'vue-material-design-icons/Magnify.vue'
+import HomeIcon from 'vue-material-design-icons/Home.vue'
 </script>
 
 <template>
@@ -36,10 +37,26 @@ import MagnifyIcon from 'vue-material-design-icons/Magnify.vue'
 
       <div class="w-full bg-custom-color h-14 rounded-full flex items-center p-3">
         <MagnifyIcon size="40"/>
-        <div class="ml-3 text-xs font-semibold">
+        <div class="ml-3 text-xs font-semibold text-gray-700">
           Enter pickup location
         </div>
       </div>
     </div>
+
+    <footer class="w-full z-50 flex justify-around p-1 mb-2 border-t-2 border-t-gray-200">
+      <div class="grid place-items-center">
+        <HomeIcon :size="40" fillColor="#1f1e1e"/>
+        <div class="w-full -mt-1 text-xs text-center text-gray-800 font-semibold">
+          Home
+        </div>
+      </div>
+    </footer>
   </main>
 </template>
+<style scoped>
+/* #ServiceSelectSmall{ */
+    .bg-custom-color {
+        background-color: rgb(237, 237, 237);
+}
+/* } */
+</style>
