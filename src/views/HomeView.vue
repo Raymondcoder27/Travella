@@ -1,6 +1,7 @@
 <script setup>
 // import TheWelcome from '../components/TheWelcome.vue'
 import ServiceSelectLarge from '@/components/ServiceSelectLarge.vue';
+import ServiceSelectSmall from '@/components/ServiceSelectSmall.vue';
 </script>
 
 <template>
@@ -16,6 +17,16 @@ import ServiceSelectLarge from '@/components/ServiceSelectLarge.vue';
         imageWidth="74"
         image="food"
         :promo="true"/>
+      </div>
+      <div class="grid grid-cols-4 gap-3 my-3">
+        <ServiceSelectSmall 
+        text="Ride"
+        image="ride"/>
+      <!-- <ServiceSelectSmall 
+        text="Food"
+        imageWidth="74"
+        image="food"
+        :promo="true"/> -->
       </div>
     </div>
     <!-- <TheWelcome /> -->
