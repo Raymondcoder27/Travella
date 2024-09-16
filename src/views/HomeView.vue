@@ -4,6 +4,7 @@ import ServiceSelectLarge from '@/components/ServiceSelectLarge.vue';
 import ServiceSelectSmall from '@/components/ServiceSelectSmall.vue';
 import MagnifyIcon from 'vue-material-design-icons/Magnify.vue'
 import HomeIcon from 'vue-material-design-icons/Home.vue'
+import MapMarkerIcon from 'vue-material-design-icons/MapMarker.vue'
 </script>
 
 <template>
@@ -36,7 +37,7 @@ import HomeIcon from 'vue-material-design-icons/Home.vue'
       </div>
 
       <div class="w-full bg-custom-color h-14 rounded-full flex items-center p-3">
-        <MagnifyIcon size="40"/>
+        <MagnifyIcon :size="40"/>
         <div class="ml-3 text-xs font-semibold text-gray-700">
           Enter pickup location
         </div>
@@ -48,6 +49,12 @@ import HomeIcon from 'vue-material-design-icons/Home.vue'
         <HomeIcon :size="40" fillColor="#1f1e1e"/>
         <div class="w-full -mt-1 text-xs text-center text-gray-800 font-semibold">
           Home
+        </div>
+      </div>
+      <div class="grid place-items-center">
+        <MapMarkerIcon :size="40" fillColor="#b3b1b1"/>
+        <div class="w-full -mt-1 text-xs text-center text-gray-400 font-semibold">
+          Destination
         </div>
       </div>
     </footer>
