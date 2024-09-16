@@ -18,7 +18,7 @@
                     Ride
                 </div>
                 <div class="mt-3 mr-1">
-                    <img width="70" src="/public/uber/ride.png" alt="">
+                    <img :width="imageWidth" :src="'/public/uber/'+image+'.png'" alt="">
                 </div>
             </div>
         </div>
