@@ -1,5 +1,4 @@
 <script setup>
-
 // import TheWelcome from '../components/TheWelcome.vue'
 import ServiceSelectLarge from '@/components/ServiceSelectLarge.vue';
 import ServiceSelectSmall from '@/components/ServiceSelectSmall.vue';
