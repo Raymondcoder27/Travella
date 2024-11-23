@@ -1,6 +1,5 @@
 <script setup>
     import {toRefs, defineProps} from 'vue'
-
     const props = defineProps({
         text: String,
         imageWidth: String,
