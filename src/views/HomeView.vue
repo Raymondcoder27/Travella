@@ -10,7 +10,6 @@ import MapMarkerIcon from 'vue-material-design-icons/MapMarker.vue'
 <template>
   <main id="Home" class="flex flex-col h-screen">
     <div class="m-3 mb-auto">
-
       <div class="my-20">
         <img width="150" src="/public/uber/uber2.svg" alt="">
       </div>
