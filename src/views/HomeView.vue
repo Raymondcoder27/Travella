@@ -6,7 +6,6 @@ import MagnifyIcon from 'vue-material-design-icons/Magnify.vue'
 import HomeIcon from 'vue-material-design-icons/Home.vue'
 import MapMarkerIcon from 'vue-material-design-icons/MapMarker.vue'
 </script>
-
 <template>
   <main id="Home" class="flex flex-col h-screen">
     <div class="m-3 mb-auto">
