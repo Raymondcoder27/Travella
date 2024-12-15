@@ -2,7 +2,6 @@
     import {toRefs, defineProps, defineEmits, computed} from 'vue'
     import WindowCloseIcon from 'vue-material-design-icons/WindowClose.vue'
     const emit = defineEmits(['update:input', 'clearInput', 'isActive'])
-
     const props = defineProps({
         theId:String,
         input: String,
