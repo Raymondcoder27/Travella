@@ -6,7 +6,6 @@
         image: String,
         promo: {Boolean, default:false}
     })
-
     const { text, imageWidth, image} = toRefs(props)
 </script>
 
