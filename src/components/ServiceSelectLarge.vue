@@ -8,7 +8,6 @@
     })
     const { text, imageWidth, image} = toRefs(props)
 </script>
-
 <template>
     <div id="ServiceSelectLarge">
         <div class="w-full rounded-2xl bg-custom-color h-[100px]">
