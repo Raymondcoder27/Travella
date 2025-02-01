@@ -9,7 +9,6 @@
         promo: {Boolean, default:false}
     })
     const {text,imageWidth, image} = toRefs(props)
-
     const inputComputed = computed({
         get: ()=> input.value,
         set: (val)=> emit('update:input', val)
