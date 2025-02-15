@@ -8,6 +8,7 @@
         placeholder:String,
         promo: {Boolean, default:false}
     })
+
     const {text,imageWidth, image} = toRefs(props)
     const inputComputed = computed({
         get: ()=> input.value,
